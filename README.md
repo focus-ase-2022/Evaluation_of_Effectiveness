@@ -1,24 +1,29 @@
-# Ground Truth for XLL Evaluation
-This repository contains the ground truth XLLs collected from 15 repositories across three frameworks(Android, SpringMVC and Mybatis).
-## Menu of Ground Truth Files
-- [Android]("https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/tree/main/Android")
-    - [CloudReader](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Android/CloudReader:91c8334.csv)
-    - [GSYVideoPlayer](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Android/GSYVideoPlayer:f7a1e158.csv)
-    - [NewPipe](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Android/NewPipe:f36fd2f7b.csv)
-    - [VirtualXposed](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Android/VirtualXposed:9c20336a.csv)
-    - [XposedInstaller](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Android/XposedInstaller:8f8f2d7.csv)
-- [SpringMVC](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/tree/main/SpringMVC)
-    - [ForestBlog](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/SpringMVC/ForestBlog:cda2028.csv)
-    - [jeecg](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/SpringMVC/jeecg:2608008e.csv)
-    - [sagan](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/SpringMVC/sagan:0819ff11.csv)
-    - [xbin-store](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/SpringMVC/xbin-store:b26c714.csv)
-    - [zheng](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/SpringMVC/zheng:7005c0a7.csv)
-- [Mybatis](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/tree/main/Mybatis)
-    - [community](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Mybatis/community:7ee526f.csv)
-    - [jeecg-boot](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Mybatis/jeecg-boot:fe1b58a.csv)
-    - [mall](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Mybatis/mall:8ff45e9.csv)
-    - [newbee-mall](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Mybatis/newbee-mall:2b80de0.csv)
-    - [zheng](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Mybatis/zheng:7005c0a7.csv)
+# Data for RQ2: Evaluation of Effectiveness
+This repository contains: (1) the ground truth XLLs collected from 15 repositories across three frameworks(Android, SpringMVC and Mybatis), (2) Focus config files for selected framework.
+## Menu
+- Ground Truth
+    - [Android]("https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/tree/main/Android")
+        - [CloudReader](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Android/CloudReader:91c8334.csv)
+        - [GSYVideoPlayer](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Android/GSYVideoPlayer:f7a1e158.csv)
+        - [NewPipe](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Android/NewPipe:f36fd2f7b.csv)
+        - [VirtualXposed](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Android/VirtualXposed:9c20336a.csv)
+        - [XposedInstaller](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Android/XposedInstaller:8f8f2d7.csv)
+    - [SpringMVC](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/tree/main/SpringMVC)
+        - [ForestBlog](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/SpringMVC/ForestBlog:cda2028.csv)
+        - [jeecg](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/SpringMVC/jeecg:2608008e.csv)
+        - [sagan](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/SpringMVC/sagan:0819ff11.csv)
+        - [xbin-store](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/SpringMVC/xbin-store:b26c714.csv)
+        - [zheng](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/SpringMVC/zheng:7005c0a7.csv)
+    - [Mybatis](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/tree/main/Mybatis)
+        - [community](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Mybatis/community:7ee526f.csv)
+        - [jeecg-boot](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Mybatis/jeecg-boot:fe1b58a.csv)
+        - [mall](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Mybatis/mall:8ff45e9.csv)
+        - [newbee-mall](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Mybatis/newbee-mall:2b80de0.csv)
+        - [zheng](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Mybatis/zheng:7005c0a7.csv)
+- Config Files
+    - [Android](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Android/config.yml)
+    - [SpringMVC](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/SpringMVC/config.yml)
+    - [Mybatis](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Mybatis/config.yml)
 ## Link to Selected Repositories
 - **Android**
     - CloudReader: https://github.com/youlookwhat/CloudReader/tree/91c8334aa1546e66a4c2c0330214993de93a3a90
