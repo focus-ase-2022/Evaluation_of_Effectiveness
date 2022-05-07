@@ -19,7 +19,6 @@ flowgraph:
   r-dataBinding:
     - r-dataBindingClassLink
     - r-layout
-#    - $
   r-xml-inner:
     - r-id
     - r-dataBinding
