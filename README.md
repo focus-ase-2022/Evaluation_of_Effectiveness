@@ -1,6 +1,6 @@
 # Data for RQ2: Evaluation of Effectiveness
 This repository contains: (1) the ground truth XLLs collected from 15 repositories across three frameworks(Android, SpringMVC and Mybatis), (2) Focus config files for selected framework.
-## Menu
+## Table of contents
 - Ground Truth
     - [Android]("https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/tree/main/Android")
         - [CloudReader](https://github.com/focus-ase-2022/XLL_Evaluation_Ground_Truth/blob/main/Android/CloudReader:91c8334.csv)
