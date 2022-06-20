@@ -1,4 +1,4 @@
-# Data for RQ2: Evaluation of Effectiveness
+# Data for *RQ2: the Evaluation of Effectiveness*
 This repository contains: (1) the ground truth XLLs collected from 15 repositories across three frameworks(Android, SpringMVC and Mybatis), (2) Focus config files for selected framework.
 ## Table of contents
 - Ground Truth
