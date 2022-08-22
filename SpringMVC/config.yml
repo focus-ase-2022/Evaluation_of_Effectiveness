@@ -137,13 +137,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*addAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name)}"
+        identifier: "${(name:snake)}"
 
   r-addAttr-dot:
     hidden: true
@@ -152,13 +152,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*addAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name).*}"
+        identifier: "${(name:snake).*}"
 
   r-addAttr-blank:
     def:
@@ -166,13 +166,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*addAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name) }"
+        identifier: "${(name:snake) }"
 
   r-addAttrJsp:
     def:
@@ -180,13 +180,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*addAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name)}"
+        identifier: "${(name:snake)}"
 
   r-addAttrJsp-dot:
     hidden: true
@@ -195,13 +195,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*addAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name).*}"
+        identifier: "${(name:snake).*}"
 
   r-addAttrJsp-blank:
     def:
@@ -209,13 +209,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*addAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name) }"
+        identifier: "${(name:snake) }"
 
   # model.addAttribute("name", ) <-> ${name}
   r-setAttr:
@@ -224,13 +224,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*setAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name)}"
+        identifier: "${(name:snake)}"
 
   r-setAttr-dot:
     hidden: true
@@ -239,13 +239,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*setAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name).*}"
+        identifier: "${(name:snake).*}"
 
   r-setAttr-blank:
     def:
@@ -253,13 +253,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*setAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name) }"
+        identifier: "${(name:snake) }"
 
   r-setAttrJsp:
     def:
@@ -267,13 +267,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*setAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name)}"
+        identifier: "${(name:snake)}"
 
   r-setAttrJsp-dot:
     hidden: true
@@ -282,13 +282,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*setAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name).*}"
+        identifier: "${(name:snake).*}"
 
   r-setAttrJsp-blank:
     def:
@@ -296,13 +296,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*setAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name) }"
+        identifier: "${(name:snake) }"
 
 
   r-getAttr:
@@ -311,13 +311,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*getParameter'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name)}"
+        identifier: "${(name:snake)}"
 
   r-getAttr-dot:
     hidden: true
@@ -326,13 +326,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*getAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name).*}"
+        identifier: "${(name:snake).*}"
 
   r-getAttr-blank:
     def:
@@ -340,13 +340,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*getAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name) }"
+        identifier: "${(name:snake) }"
 
   r-getAttrJsp:
     def:
@@ -354,13 +354,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*getAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name)}"
+        identifier: "${(name:snake)}"
 
   r-getAttrJsp-dot:
     hidden: true
@@ -369,13 +369,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*getAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name).*}"
+        identifier: "${(name:snake).*}"
 
   r-getAttrJsp-blank:
     def:
@@ -383,13 +383,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/*getAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name) }"
+        identifier: "${(name:snake) }"
 
   # functionName(ModelMap modelName) <-> modelName.put("name", )
   # optional
@@ -412,13 +412,13 @@ rules:
       file: (&javaFile).java
       identifier: "(&functionName)/**/(&modelMap).put"
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name)}"
+        identifier: "${(name:snake)}"
 
   r-modelMap-put-jsp:
     def:
@@ -426,13 +426,13 @@ rules:
       file: (&javaFile).java
       identifier: "(&functionName)/**/(&modelMap).put"
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name)}"
+        identifier: "${(name:snake)}"
 
   r-modelMap-put-dot:
     hidden: true
@@ -441,13 +441,13 @@ rules:
       file: (&javaFile).java
       identifier: "(&functionName)/**/(&modelMap).put"
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name).*}"
+        identifier: "${(name:snake).*}"
 
   r-modelMap-put-jsp-dot:
     hidden: true
@@ -456,13 +456,13 @@ rules:
       file: (&javaFile).java
       identifier: "(&functionName)/**/(&modelMap).put"
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name).*}"
+        identifier: "${(name:snake).*}"
 
   r-modelMap-put-blank:
     def:
@@ -470,13 +470,13 @@ rules:
       file: (&javaFile).java
       identifier: "(&functionName)/**/(&modelMap).put"
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name) }"
+        identifier: "${(name:snake) }"
 
   r-modelMap-put-jsp-blank:
     def:
@@ -484,13 +484,13 @@ rules:
       file: (&javaFile).java
       identifier: "(&functionName)/**/(&modelMap).put"
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: HTML
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name) }"
+        identifier: "${(name:snake) }"
 
   # return "htmlPath" <-> htmlPath.html
   r-htmlPath:
@@ -639,6 +639,7 @@ rules:
 
   # functionName(ModelAndView mav) <-> mav.addObject("name", )
   r-mav-modelName:
+    hidden: true
     def:
       lang: JAVA
       file: (&javaFile).java
@@ -649,7 +650,7 @@ rules:
       file: (&javaFile).java
       identifier: (functionName)/(&mav).addObject
       inline:
-        identifier: (name)
+        identifier: (name:snake)
 
   # mav.addObject("name", ) <-> ${name}
   r-mav-attr:
@@ -702,13 +703,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/@ModelAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: OTHER
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name)}"
+        identifier: "${(name:snake)}"
 
   r-global-model-dot:
     hidden: true
@@ -717,13 +718,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/@ModelAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: OTHER
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name).*}"
+        identifier: "${(name:snake).*}"
 
   r-global-model-blank:
     def:
@@ -731,13 +732,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/@ModelAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: OTHER
       file: (&htmlFile).html
       identifier: "**"
       inline:
-        identifier: "${(name) }"
+        identifier: "${(name:snake) }"
 
   r-global-model-jsp:
     def:
@@ -745,13 +746,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/@ModelAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: OTHER
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name)}"
+        identifier: "${(name:snake)}"
 
   r-global-model-jsp-dot:
     hidden: true
@@ -760,13 +761,13 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/@ModelAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: OTHER
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name).*}"
+        identifier: "${(name:snake).*}"
 
   r-global-model-jsp-blank:
     def:
@@ -774,10 +775,10 @@ rules:
       file: (&javaFile).java
       identifier: '(&functionName)/@ModelAttribute'
       inline:
-        identifier: (name)
+        identifier: (name:snake)
     use:
       lang: OTHER
       file: (&jspFile).jsp
       identifier: "**"
       inline:
-        identifier: "${(name) }"
+        identifier: "${(name:snake) }"
